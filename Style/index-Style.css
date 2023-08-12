@@ -132,10 +132,9 @@ section .footer .row ul li a{
 }
 
 /*Tablet View*/
-@media (min-width:769px) and (max-width:1023px){
-  section header ul li button{
-      background-color: tomato;
-  }
+@media (min-width:769px) and (max-width:1023px)
+{
+  .footer1{margin-left: 30px;}
 }
 
 
@@ -151,7 +150,6 @@ section .footer .row ul li a{
   section .footer .row ul{
       display: block;
   }
-  section header ul li button{
-      background-color: blue;
-  }
+.main .searchbox{width: 95%;}
+  section .main{margin-bottom: 70px;}
 }
