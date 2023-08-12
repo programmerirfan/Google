@@ -106,7 +106,7 @@ section .footer{
   width: 100%;
   background: #f2f2f2;
 }
-.footer1{position: relative; display: flex;justify-content: flex-start;color: #5f6368;padding: 13px;margin-left: 30px;}
+.footer1{position: relative; display: flex;justify-content: flex-start;color: #5f6368;padding: 13px;margin-left: 24px;}
 section .footer .row{
   display: flex;
   justify-content: space-between;
@@ -128,13 +128,13 @@ section .footer .row ul li a{
 
 /*Desktop*/
 @media (min-width:1024px){
- .footer1{margin-left: 30px;}
+  .footer1{margin-left: 24px;}
+
 }
 
 /*Tablet View*/
-@media (min-width:769px) and (max-width:1023px)
-{
-  .footer1{margin-left: 30px;}
+@media (min-width:769px) and (max-width:1023px){
+.footer1{margin-left: 24px;}
 }
 
 
@@ -142,14 +142,18 @@ section .footer .row ul li a{
 /*Mobile View*/
 @media (max-width:768px){
   section .main .searchbox .search{
-      width: 78%;
+      width: 75%;padding: 10px
   }
   section .main .searchbox .icons{
       width: 84%;
+      padding: 9px 20px;
   }
+  section .main .buttons button { padding: 9px 10px}
   section .footer .row ul{
       display: block;
   }
-.main .searchbox{width: 95%;}
-  section .main{margin-bottom: 70px;}
+  .main .searchbox{width: 95%;}
+ section .main{margin-bottom: 70px;}
+ img{width: 170px;}
+ section .main .lang{ margin-bottom: 40px}
 }
