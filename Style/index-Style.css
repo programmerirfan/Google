@@ -141,12 +141,13 @@ section .footer .row ul li a{
 
 /*Mobile View*/
 @media (max-width:768px){
+  section .main .searchbox { margin-left: 59px;}
   section .main .searchbox .search{
       width: 75%;padding: 10px
   }
   section .main .searchbox .icons{
-      width: 84%;
-      padding: 9px 20px;
+    width: 72%;
+    padding: 10px 13px;
   }
   section .main .buttons button { padding: 9px 10px}
   section .footer .row ul{
@@ -154,6 +155,6 @@ section .footer .row ul li a{
   }
   .main .searchbox{width: 95%;}
  section .main{margin-bottom: 70px;}
-.mainimg{width: 170px;}
+ .mainimg{width: 170px;}
  section .main .lang{ margin-bottom: 40px}
 }
