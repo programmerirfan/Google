@@ -142,7 +142,8 @@ section .footer .row ul li a{
 /*Mobile View*/
 @media (max-width:768px){
   section .main .searchbox { margin-left: 59px;    position: relative;
-    width: 100%;}
+    width: 100%;    bottom: 0;
+    right: 0;}
   section .main .searchbox .search{
       width: 75%;padding: 10px
   }
